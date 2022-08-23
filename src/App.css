@@ -1,0 +1,13 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.component-header {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: black;
+  color: rgb(0, 247, 255);
+  margin-bottom: 100px;
+}
