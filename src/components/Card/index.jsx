@@ -15,12 +15,15 @@ function Card({name, title, url}) {
     
 
   return (
-    <tr>
-    <td>{name}</td>
-    <td>{title}</td>
-    <td><a href={url}>Click for Video</a></td>
-    <td><button type='button' onClick={handleClick}>{showLike && isClicked ? "Unlike" : "Like"}</button></td>
-</tr>
+    <div>    
+        <div>
+            <p>{name}</p>
+            <p>{title}</p>
+            <a href={url}>Click for video</a>
+            <button type='button' onClick={handleClick}>{showLike && isClicked ? "Unlike" : "Like"}</button>
+        </div>                
+    </div>
+
   )
 }
 
