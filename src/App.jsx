@@ -1,15 +1,13 @@
 import React, { useState, useEffect } from 'react';
-import './App.css';
+import '../src/App.css'
 
-import {Header, Artists, Songs} from './components';
+import MainPage from './pages/MainPage';
 
 const App = () => {
 
   return (
     <>
-      <Header/>
-      <Artists/>
-      <Songs/>
+      <MainPage/>     
     </>
     
   )
